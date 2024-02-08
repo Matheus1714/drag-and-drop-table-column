@@ -20,3 +20,44 @@ This is a project for dragging and dropping a column in table.
 
 * When user drags an item, we determine the index of target item within the list. And swap the columns associated with the dragging and end indexes.
 
+## Table in List
+
+```html
+<!-- The list -->
+<div>
+    <!-- First item -->
+    <div>
+        <table>
+            <!-- The first column of original table -->
+            <tr>
+                ...
+            </tr>
+            <tr>
+                ...
+            </tr>
+            ...
+        </table>
+    </div>
+
+    <!-- Second item -->
+    <div>
+        <table>
+            <!-- The second column of original table -->
+            <tr>
+                ...
+            </tr>
+            <tr>
+                ...
+            </tr>
+            ...
+        </table>
+    </div>
+
+    <!-- ... -->
+</div>
+
+<!-- The original table -->
+<table>
+    ...
+</table>
+```
